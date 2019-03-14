@@ -1,14 +1,12 @@
 # Image-processing-web-application
 1. Effects to achieve
        This project focuses on image segmentation based on 3 methods, respectively Ostu’s method, Kmeans algorithm and Gaussian Mixture
-       Model.
+       Model. <br>
 2. Details of algorithm(All algorithms are implemented by myself)
-       i) In Ostu’s method, I used the method covered in class and just pick a threshold that maximizes the between-class variance.
+       i) In Ostu’s method, I used the method covered in class and just pick a threshold that maximizes the between-class variance.<br>
        ii) In Kmeans algorithm, I optimize the initialization using Kmeans++ initialization method proposed by David Arthur and 
-       Sergei Vassilvitskii. The model is encapsulated in kmeans.py
-       iii) In Gaussian Mixture Model, I implement the EM algorithm, which iteratively computing E-step and M-step. E-step computes the mixture
-       probabilities for all data points while M-step updates the means, covariance matrices and prior probabilities. The initialization schemes also use kmeans
-       algorithm that only runs one step in order to achieve good initial parameter settings. The model is encapsulated in EM.py
+       Sergei Vassilvitskii. The model is encapsulated in kmeans.py<br>
+       iii) In Gaussian Mixture Model, I implement the EM algorithm, which iteratively computing E-step and M-step. E-step computes the mixture probabilities for all data points while M-step updates the means, covariance matrices and prior probabilities. The initialization schemes also use kmeans algorithm that only runs one step in order to achieve good initial parameter settings. The model is encapsulated in EM.py<br>
 3. Instruction on how to run this program
 Step 1:
    This is an image processing web application which are embedded in Flask framework. Before running this web app, please make sure that you install Flask
