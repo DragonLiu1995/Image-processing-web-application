@@ -1,5 +1,5 @@
 # Image-processing-web-application
-1. Effects to achieve
+1. Effects to achieve<br>
        This project focuses on image segmentation based on 3 methods, respectively Ostu’s method, Kmeans algorithm and Gaussian Mixture
        Model. <br>
 2. Details of algorithm(All algorithms are implemented by myself)<br>
