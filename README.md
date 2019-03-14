@@ -10,7 +10,7 @@
 3. Instruction on how to run this program<br>
 Step 1:
    This is an image processing web application which are embedded in Flask framework. Before running this web app, please make sure that you install Flask
-   backend services.<br>
+   backend services.<br><br>
    To install Flask, just type “pip install Flask” in your command line or terminal. Other packages include cv2, numpy and scipy.<br>
 Step 2:
    To run this program, type in your command line “cd ‘root directory of this application(where app.py resides)’. Inside your root directory, type in your
@@ -37,7 +37,7 @@ for kmeans and GMM in your command line. The algorithm runs at most 10
 iterations.<br><br>
 Step 7: Upon completion, the result image will show inside the right frame.
 <br>
-4. Conclusion
+4. Conclusion<br>
 In this project, I get better understanding of how these basic cluster algorithms work
 by implement all details by myself. Also, building this tiny full stack system enables
 me to have a better understanding of how to build a web application. In future, I
