@@ -16,17 +16,17 @@ Step 2:
    To run this program, type in your command line “cd ‘root directory of this application(where app.py resides)’. Inside your root directory, type in your
 command line “python app.py”, then the application will be hosted on your localhost, and port by default is 8080.
 (If port 8080 is preempted by another application, you can change this configuration in app.py. Find this line app.run(host='localhost', port=8080, debug=True), and
-change the port number to any other available ports from 0 to 65535.)<br>
-Step 3: <br>Open up the localhost in your browser, I recommend you use Chrome or FireFox. <br>
-Step 4: <br>Upload your image to process. On the left part, you can upload your images
+change the port number to any other available ports from 0 to 65535.)<br><br>
+Step 3:  Open up the localhost in your browser, I recommend you use Chrome or FireFox. <br><br>
+Step 4:   Upload your image to process. On the left part, you can upload your images
 by clicking “Choose images to upload(JPG)”. Images with jpg or jpeg extensions
 are required. After choosing your image, you will be able to view this image inside
 the left frame. Then click “Upload” button, you will see a message right to the button telling you
-the image has been successfully uploaded.<br>
-Step 5: <br>Process your image. You can choose one of the three methods to processyour image by selecting from the drop-down menu. They are kmeans, Ostu and GMM. For kmeans and GMM, you can enter the number of clusters you want to
+the image has been successfully uploaded.<br><br>
+Step 5:   Process your image. You can choose one of the three methods to processyour image by selecting from the drop-down menu. They are kmeans, Ostu and GMM. For kmeans and GMM, you can enter the number of clusters you want to
 segment, the range is between 2 to 15. For Ostu’s method, the algorithm just use
 binary segmentation, so you don’t need to enter the number of clusters. Once you
-are ready, click “Go!” to process your image.<br>
+are ready, click “Go!” to process your image.<br><br>
 Step 6: Wait for the process to complete. The speed of process depends on number
 of clusters, the choice of algorithm, and size of image. To save your time, we
 recommend you choose images with relatively small size, and choose a small value
@@ -34,8 +34,8 @@ for the number of clusters. For Ostu’s method, it can be done instantly. For K
 and GMM, it may take up to 3 minutes for larger images. Feel free to make a cup
 of coffee while you’re waiting. You can actually see some temporary printing results
 for kmeans and GMM in your command line. The algorithm runs at most 10
-iterations.<br>
-Step 7: <br>Upon completion, the result image will show inside the right frame.
+iterations.<br><br>
+Step 7: Upon completion, the result image will show inside the right frame.
 <br>
 4. Conclusion
 In this project, I get better understanding of how these basic cluster algorithms work
