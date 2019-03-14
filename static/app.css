@@ -1,0 +1,91 @@
+#container {
+    text-align: center;
+}
+
+h1, header {
+  width: 80%;
+  margin: auto auto;
+}
+
+p, button {
+    font-size: 16pt;
+    text-align: center;
+}
+
+label {
+   font-size: 16pt;
+   text-align: center;
+   background-color: #c1bbbb;
+   display: block;
+   margin-top: 10px;
+   border: 1px solid black;
+   width: 300px;
+   cursor: pointer;
+}
+
+label:hover {
+  font-weight: bold;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  border: 5px solid black;
+}
+
+#upload-btn {
+  display: block;
+  width: 120px;
+  height: 45px;
+  font-size: 18pt;
+}
+
+#image {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#original-image {
+  margin-left: 50px;
+}
+#processed-image {
+  width: 50%;
+  height: 70%;
+  padding: 20px;
+  padding-bottom: 0;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#cluster {
+  width: 200px;
+}
+
+#process {
+  width: 100px;
+  display: block;
+  margin-top: 30px;
+}
+
+#user-input {
+  border: 2px solid black;
+  width: 600px;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#msg {
+  margin-left: 65px;
+  margin-top: -35px;
+  font-size: 15pt;
+}

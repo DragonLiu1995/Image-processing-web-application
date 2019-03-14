@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segmentation Algorithms</title>
+        <script src="{{ url_for('static', filename='jquery-3.3.1.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}" type="text/css" />
+    </head>
+    <body>
+        <header>
+           <h1> Welcome to Xiulong's image processing website! </h1>
+        </header>
+        <section id="image">
+        <section id="original-image">
+            <form id="image-data" enctype="multipart/form-data">
+              <div class="box preview">
+                <p>No files currently selected for upload</p>
+              </div>
+              <div>
+                <label for="image-upload">Choose images to upload (JPG)</label>
+                <input type="file" id="image-upload" name="file" accept=".jpg, .jpeg">
+              </div>
+              <input type="button" value="Upload" id="upload-btn"/>
+              <p id="msg"></p>
+           </form>
+        </section>
+        <section id="processed-image">
+          <div class="box" id="out-img">
+          </div>
+          <div id="user-input">
+            <div>
+             <h3>Approach</h3>
+             <select id="approach">
+              <option value="kmeans">Kmeans</option>
+              <option value="GMM">Gaussian Mixture Model</option>
+              <option value="Ostu">Ostu</option>
+             </select>
+           </div>
+           <div>
+            <h3>Number of clusters(Ostu just using 2)</h3>
+            <input id="cluster" type="number" required min=2 max=15 placeholder="Enter a number betwwen 2~15"/>
+          </div>
+            <button id="process"> Go!</button>
+          </div>
+        </section>
+      </section>
+    </body>
+</html>
