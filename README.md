@@ -2,7 +2,7 @@
 1. Effects to achieve
        This project focuses on image segmentation based on 3 methods, respectively Ostu’s method, Kmeans algorithm and Gaussian Mixture
        Model. <br>
-2. Details of algorithm(All algorithms are implemented by myself)
+2. Details of algorithm(All algorithms are implemented by myself)<br>
        i) In Ostu’s method, I used the method covered in class and just pick a threshold that maximizes the between-class variance.<br>
        ii) In Kmeans algorithm, I optimize the initialization using Kmeans++ initialization method proposed by David Arthur and 
        Sergei Vassilvitskii. The model is encapsulated in kmeans.py<br>
